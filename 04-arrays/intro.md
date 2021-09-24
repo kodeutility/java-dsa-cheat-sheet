@@ -41,15 +41,15 @@ int[] students={10,20,30,40};
     - Declare: creates reference. It stores the initial address to the actual array
     - Instantiation of array: creates an array. Complier allocates memory. Default values are 0 for integers.
     - Initialization - assigns value to cells in array
-- reason why array access operation is fast is because the the program just adds the index number to the initial address of array to exactly know the position instead of linear search with every element i.e the reason why index start form 0 as we add 0 to initial address to reach 1st element
+- Reason why array access operation is fast is because the the program just adds the index number to the initial address of array to exactly know the position instead of linear search with every element i.e the reason why index start form 0 as we add 0 to initial address to reach 1st element
 
 ### Ways of creating 1D array
 ```java
-int[] intArray;
-intArray = new int[3];
-intArray[0] = 7;
-intArray[1] = 4;
-intArray[2] = 5;
+int[] intArray; //Declare
+intArray = new int[3]; //Instantiation (will have default values of the data type)
+intArray[0] = 7; //Initialization
+intArray[1] = 4; //Initialization
+intArray[2] = 5; //Initialization
 
 // All operation take O(1) and to add N elements it takes O(N) in total
 
@@ -80,4 +80,7 @@ for (String str : city){
 import java.util.Arrays;
 System.out.println(Arrays.toString(intArray));
 ```
+- If we have to insert a element in first place of array then we would have to move all elements to right by 1 position so the time complexity is O(N)
+![Insert into 1d array](insert-1d-array.png)
+- Usually if array if full we will fail the operation, if we really want to insert an element to full array, we would have to create a new array with bigger size and copy old elements to new array and insert new element
 

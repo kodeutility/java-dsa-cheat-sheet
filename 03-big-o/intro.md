@@ -10,11 +10,17 @@
     - Best case
     - Average case
     - Worst case
+> O(1)>O(logN)>O(N)>O(NlogN)>O(N^2)>O(2^N)>O(N!)
+
+
+![Big O](bigo.png)
 
 - The general step wise procedure for Big-O runtime analysis is as follows:  
     1. Figure out what the input is and what n represents.
     2. Express the maximum number of operations, the algorithm performs in terms of n.
     3. Eliminate all excluding the highest order terms.
     4. Remove all the constant factors.
+
+
 
     

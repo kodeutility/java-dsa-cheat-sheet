@@ -24,5 +24,11 @@
 ||str.replaceFirst()|
 ||str.replaceAll()|
 
+- To use for loop over string use str.toCharArray()
+```java
+for(char c : s.toCharArray()){
+            mp.put(c, mp.getOrDefault(c,0) + 1);
+        }
+```
 # String Builder
 - StringBuilder is mutable in java

@@ -17,3 +17,8 @@ HashMap<Integer, String> hm= new HashMap<Integer, String>();
 |Check for value|hm.containsValue(value);|
 |Clear|hm.clear();|
 |Remove entry|hm.remove(key);|
+
+- To get and update, if key not present set default value
+```java
+mp.put(c, mp.getOrDefault(c,0) + 1);
+```

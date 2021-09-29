@@ -19,3 +19,6 @@ Java Data Structures & Algorithms CheatSheet
 - [**Dynamic Programming**](15-dynamic-programming-algorithm/intro.md)
 - [**Bit Manipulation**](16-bit-manipulation/intro.md)
 - [**Strings**](17-strings/intro.md)
+
+Other topics
+- https://en.wikipedia.org/wiki/Josephus_problem
